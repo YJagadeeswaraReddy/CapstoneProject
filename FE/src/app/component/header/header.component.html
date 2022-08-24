@@ -46,7 +46,7 @@
 
 
 
-
+<div class="header">
 <header >
   <nav >
     <div class="navbar-brand align-item-centre d-flex">
@@ -57,10 +57,8 @@
         <span class="fas fa-search search-icon" style="margin-right: 10px; margin-top: 10px;"></span>
       </div>
 
-    <button mat-raised-button color="accent" style=" width:150px;float: right; margin: 20px 0px 20px 20px;"  *ngIf="" routerLink="login"  routerLink="/admin" >Admin Console</button>
-    <button mat-raised-button	color="accent"  routerLink="login" style="float: right; margin: 20px 20px 20px 20px;">Login</button>
-    <button mat-raised-button color="warn" *ngIf="" routerLink="products" style="float: right;margin: 20px 20px 20px 20px;" (click)="logout()">Log out</button>
 
+      <span class="spacer"></span>
     <button mat-mini-fab color="warn" routerLink="discount" style="margin:1px ;width: 50px; height: 50px; margin-right: 20px;margin-top: 10px;">
       <mat-icon style="color :white">card_giftcard</mat-icon>
     </button>
@@ -73,6 +71,11 @@
       <mat-icon style="color :white">shopping_cart</mat-icon>
     </button>
 
+    <button mat-raised-button color="accent" style=" width:150px;float: right; margin: 20px 0px 20px 20px;"  *ngIf="" routerLink="login"  routerLink="/admin" >Admin Console</button>
+    <button mat-raised-button	color="accent"  routerLink="login" style="float: right; margin: 20px 20px 20px 20px;">Login</button>
+    <button mat-raised-button color="warn" *ngIf="" routerLink="products" style="float: right;margin: 20px 20px 20px 20px;" (click)="logout()">Log out</button>
+
   </div>
   </nav>
 </header>
+</div>

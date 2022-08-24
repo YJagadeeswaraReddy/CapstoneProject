@@ -1,8 +1,8 @@
-/*.spacer {
+.spacer {
     flex: 1 1 auto;
 }
 
-.mat-card {
+/*.mat-card {
     padding: 0;
     border-radius: 0;
     box-shadow: none;
@@ -64,8 +64,9 @@ h3 {
   font-weight: bold;
 }
 
-nav{height: 80px; text-align: center; vertical-align:middle; background: rgb(7,136,194);
-  background: linear-gradient(90deg, rgba(7,136,194,1) 0%, rgba(53,133,76,1) 100%);
+nav{height: 80px; text-align: center; vertical-align:middle;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 .card-top{
   position: relative;
@@ -137,4 +138,13 @@ nav{height: 80px; text-align: center; vertical-align:middle; background: rgb(7,1
 
 .example-full-width {
   width: 100%;
+}
+
+.header {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
